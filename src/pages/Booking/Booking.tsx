@@ -1,12 +1,11 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 import { Separator } from "@/components/ui/separator";
-import { User, MapPin, Armchair, BusFront } from "lucide-react";
-import { toast } from "sonner" // Hoặc thư viện toast bạn dùng
+import { User, Armchair, BusFront } from "lucide-react";
 import { Link } from "react-router";
 
 // --- MOCK DATA TỪ API ---

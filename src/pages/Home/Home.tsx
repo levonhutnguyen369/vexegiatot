@@ -4,7 +4,7 @@ import Articles from '@/components/Articles'
 import HeroSection from '@/components/HeroSection'
 import PopularRoutes from '@/components/PopularRoutes'
 import Promotions from '@/components/Promotions'
-import React from 'react'
+
 
 const Home = () => {
   return (

@@ -1,4 +1,4 @@
-import React from 'react';
+
 
 import FilterSidebar from './components/FilterSidebar';
 import SearchResults from './components/SearchResults';

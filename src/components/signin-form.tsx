@@ -3,7 +3,6 @@ import { Input } from "@/components/ui/input";
 import { Card, CardContent } from "@/components/ui/card"
 import { FieldDescription, } from "@/components/ui/field"
 import { Button } from "./ui/button";
-import { useState } from "react";
 import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod'
 import { z } from "zod";
@@ -25,6 +24,7 @@ export function SigninForm({ className, ...props }: React.ComponentProps<"div">)
 
   const onSubmit = async (data: SignInFormValue) => {
     // call api from backend
+    data
   }
 
   return (

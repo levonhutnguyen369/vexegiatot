@@ -1,8 +1,5 @@
 import { Button } from '@/components/ui/button'
 import React from 'react'
-import clsx from "clsx";
-import { Input } from 'antd';
-import { ArrowLeftRight } from "lucide-react";
 import { Calendar } from "@/components/ui/calendar"
 import { useState } from 'react'
 import { format } from 'date-fns';
@@ -14,7 +11,7 @@ type InputProps = {
   disabled?: boolean;
 };
 
-const SearchForm = ({ hasError = false, disabled = false }: InputProps) => {
+const SearchForm = ({ disabled = false }: InputProps) => {
 
   const navigate = useNavigate();
 

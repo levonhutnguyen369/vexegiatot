@@ -1,7 +1,5 @@
 import { cn } from "@/lib/utils";
 
-import { Logo, LogoImage, LogoText } from "@/components/shadcnblocks/logo";
-
 interface MenuItem {
   title: string;
   links: {
@@ -28,12 +26,6 @@ interface Footer2Props {
 }
 
 const Footer = ({
-  logo = {
-    src: "",
-    alt: "blocks for shadcn/ui",
-    title: "",
-    url: "/",
-  },
   className,
   tagline = "Tận tâm phục vụ cộng đồng",
   menuItems = [

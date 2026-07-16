@@ -1,10 +1,10 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 import { Label } from "@/components/ui/label";
 import { Separator } from "@/components/ui/separator";
-import { CheckCircle2, QrCode, Wallet, Bus, Users, Clock, MapPin } from "lucide-react";
+import { CheckCircle2, QrCode, Wallet, Bus, Users, Clock } from "lucide-react";
 import { toast } from "sonner"; // Hoặc thư viện toast bạn đang dùng
 
 // --- MOCK DATA (Dữ liệu giả lập được truyền từ trang trước) ---

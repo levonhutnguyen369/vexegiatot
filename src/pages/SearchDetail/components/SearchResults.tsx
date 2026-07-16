@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { ResultCard } from './ResultCard'
 
 const SearchResults = () => {

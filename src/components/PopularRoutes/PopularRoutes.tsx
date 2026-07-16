@@ -1,4 +1,3 @@
-import * as React from "react";
 import { motion } from "framer-motion";
 import { ArrowRight, Clock, Star, MapPin } from "lucide-react";
 
